@@ -1,0 +1,9 @@
+/* HistoryPage.css */
+
+.status-on {
+  background-color: #4caf50 !important; /* Màu xanh cho nút On */
+}
+
+.status-off {
+  background-color: #f44336 !important; /* Màu đỏ cho nút Off */
+}

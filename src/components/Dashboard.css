@@ -1,0 +1,78 @@
+/* Dashboard.css */
+
+.dashboard {
+    flex-grow: 1;
+    padding: 24px;
+  }
+  
+  .statistic-item {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .statistic-icon {
+    color: #FF9800;
+    margin-right: 8px;
+  }
+  
+  .device-control {
+    padding: 16px;
+    width: 80%;
+  }
+  
+  .device-title {
+    font-size: 1rem;
+  }
+  
+  .device-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+  
+  .device-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .device-icon.active {
+    color: #4CAF50;
+  }
+  
+  .device-button {
+    color: white;
+  }
+  
+  .device-button.on {
+    background-color: #4CAF50;
+  }
+  
+  .device-button.on:hover {
+    background-color: #388E3C;
+  }
+  
+  .device-button.off {
+    background-color: #F44336;
+  }
+  
+  .device-button.off:hover {
+    background-color: #D32F2F;
+  }
+  
+  .device-control-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 16px;
+  }
+  
+  .statistic-chart {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
